@@ -1,0 +1,41 @@
+
+#cont1
+{
+    background:linear-gradient(115deg ,hotpink 10%,rgb(0, 255, 140) 90%);
+    padding: 70px;
+    margin-top: 250px;
+    border: 2px solid;
+}
+#cont2
+{
+    background-color: rgb(227, 255, 127);
+    box-shadow: 0 0 10px rgba(0, 0,0,0.8);
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#cont3
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    padding: 4px;
+    margin: 2px;
+    border: 1px solid;
+}
+    /*
+.color-gradient
+{
+    width: 120px;
+    height: 10px;
+    margin-left: 40px;
+    background: linear-gradient(to right,hsl(0,100%,50%),hsl(360,100%,50%));
+}
+    */

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Text color sliding page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cont1">
+        <div id="cont2">
+             <h2 id="head1">!!!change my colour!!!</h2>
+        </div>
+        <div id="cont3">
+            <label for="red">Red</label>
+            <input type="range" id="red" name="red" min="0" max="360" value="0" oninput="changecolor(this.value)"><br>
+            <div class="color-gradient" id="colorgradient"></div>
+         </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
